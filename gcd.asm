@@ -1,10 +1,10 @@
-Write a MIPS assembly program that:
-1. Reads two positive integers from the user:
-○ N → numerator
-○ D → denominator
-2. Reduces the fraction N/D to its simplest form and displays it as p/q, where p and q have no
-common divisors other than 1.
-3. If the fraction is already in simplest form, display it unchanged.
+# Write a MIPS assembly program that:
+# 1. Reads two positive integers from the user:
+# ○ N → numerator
+# ○ D → denominator
+# 2. Reduces the fraction N/D to its simplest form and displays it as p/q, where p and q have no
+# common divisors other than 1.
+# 3. If the fraction is already in simplest form, display it unchanged.
 
 
 
