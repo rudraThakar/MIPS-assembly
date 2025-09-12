@@ -1,7 +1,6 @@
 .data
   prompt1: .asciiz "Enter N : "
-  
-
+ 
 .text
 main:
   la $a0, prompt1 
@@ -23,7 +22,7 @@ main:
   syscall
   
 factorial:
-  addi $sp, $sp, -8
+  addi $sp, $sp, -8    #store the $ra and arguement(n) in the stack
   sw $ra, 4($sp)
   sw $a0, 0($sp)
   add $t0, $zero, $a0    #t0 stores n
